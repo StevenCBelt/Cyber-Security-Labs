@@ -9,7 +9,7 @@ To automate the auditing of Identity and Access Management (IAM) policies in an 
 * **Compliance Enforcement:** Automated the detection of policy violations to maintain strict access control standards.
 
 ## The Script in Action
-
+![AutomatedAWS-IAMSecurityAuditor Screenshot](AutomatedAWS-IAMSecurityAuditor.png)
 
 ## Manager's Summary
 In cloud environments, compromised credentials are the fastest vector for a data breach. 

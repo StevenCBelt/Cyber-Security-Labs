@@ -11,6 +11,6 @@ To build a custom File Integrity Monitor (FIM) using Python to detect unauthoriz
 ## The Script in Action
 ![Python File Integritry Monitor](PythonFileIntegritryMonitor.png)
 
-## Manager's Summary
+## Analysis
 In a production environment, unauthorized changes to configuration files are often the first indicator of a system compromise. 
 By utilizing cryptographic hashing, this Python script acts as a digital tripwire, ensuring that any deviation from the baseline is immediately flagged for incident response triage.

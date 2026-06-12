@@ -17,3 +17,4 @@ I utilized Trivy to perform a static vulnerability scan on a target Docker image
 The scan revealed multiple CRITICAL vulnerabilities in the image dependencies. 
 **Remediation Policy:** 
 In a live OpenShift environment, CI/CD pipelines must be configured to automatically block any container deployment that returns a "High" or "Critical" CVE score during the Trivy scan.
+![OpenShift Screenshot](OpenShiftScan1.png)

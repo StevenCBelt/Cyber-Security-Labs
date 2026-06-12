@@ -55,10 +55,10 @@ Links: (Crucial!) Tell the reader: "Never click. Hover the mouse to reveal the a
 Attachments: Are there unexpected .zip, .exe, or .iso files?
 
 Escalation/Remediation
-Write: "If verified as malicious:
+If verified as malicious:
 Block the sender domain at the email gateway.
 Search email logs for other users who received the same message.
-Purge the email from all inboxes."
+Purge the email from all inboxes.
 
 Analysis:
 Phishing triage is not just about blocking emails; it is about Risk Mitigation. 

@@ -9,7 +9,7 @@ To automate the parsing of server authentication logs to quickly identify brute-
 * **Threat Hunting:** Transformed raw, unstructured log data into actionable threat intelligence.
 
 ## The Script in Action
-
+![Automated Linux Log Analyzer](Automated Linux Log Analyzer.png)
 
 ## Manager's Summary
 Manual log review is highly inefficient. 

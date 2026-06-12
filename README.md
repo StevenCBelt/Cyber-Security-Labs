@@ -19,7 +19,7 @@ Executed "sudo nmap -sn 192.168.x.x/24" to discover active hosts.
 Mapped connected devices to identify potential assets.
 
 Findings:
-![Kali Linux Screenshot](NetworkSecurityAudit1)
+![Kali Linux Screenshot](NetworkSecurityAudit1.png)
 Total Devices Discovered: 4
 
 Observation: I identified 4 devices. This scan confirms my visibility into the network, which is the foundational step for any incident response process.

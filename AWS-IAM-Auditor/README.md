@@ -11,7 +11,7 @@ To automate the auditing of Identity and Access Management (IAM) policies in an 
 ## The Script in Action
 ![AutomatedAWS-IAMSecurityAuditor Screenshot](AutomatedAWS-IAMSecurityAuditor.png)
 
-## Manager's Summary
+## Analysis
 In cloud environments, compromised credentials are the fastest vector for a data breach. 
 Manually checking dozens or hundreds of AWS accounts for MFA compliance is highly inefficient and prone to human error. 
 By leveraging Python and `boto3`, I built an automated auditing tool that instantly flags non-compliant accounts, allowing security teams to enforce Zero Trust principles at scale.

@@ -9,7 +9,7 @@ To build a custom File Integrity Monitor (FIM) using Python to detect unauthoriz
 * **Tamper Detection:** Automated the detection of unauthorized configuration changes, a core requirement of Zero Trust architecture.
 
 ## The Script in Action
-
+![Python File Integritry Monitor](PythonFileIntegritryMonitor.png)
 
 ## Manager's Summary
 In a production environment, unauthorized changes to configuration files are often the first indicator of a system compromise. 

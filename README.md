@@ -28,6 +28,18 @@ Analysis
 Effective security starts with knowing what you own. By performing this audit, I established a baseline for my home network. In a corporate environment, this process is known as "Asset Inventory Management", which is critical for ensuring only authorized devices access sensitive data. I know who is allowed on my network, any potential threats can be quikcky identified.
 
 ## Project 2: Phishing Email Triage Playbook
+I created a fake phishing email because my security systems already block most spam and phishing emails. I would not be able to take a screenshot for this project.
+### Analysis of Phishing Sample #1
+
+> **Subject:** ACTION REQUIRED: Final Notice - Account Suspension
+> **From:** IT Support <security-alerts@micros0ft-support.com>
+
+**Red Flags Identified:**
+
+* **1. Sender Domain:** The domain `micros0ft-support.com` contains a "zero" instead of an "o" (typosquatting). A legitimate company would use `microsoft.com`.
+* **2. Urgency:** The phrase "Failure to act within 24 hours" is a psychological tactic designed to prevent the user from verifying the request.
+* **3. Generic Greeting:** "Dear Valued Employee" is often used in mass-phishing campaigns to avoid using the target's actual name.
+
 Intake & Classification
 Definition: What does a "Suspicious Email" look like?
 

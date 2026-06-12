@@ -5,7 +5,7 @@ This is the foundation of my security lab. I have configured a Kali Linux enviro
 
 ![Kali Linux Screenshot](KaliScreenshot1.png)
 
-Project 1: Home Network Security Audit
+## Project 1: Home Network Security Audit
 Objective: Perform a baseline audit of a home network to identify connected assets and verify network visibility.
 
 Tools Used:
@@ -26,3 +26,28 @@ Observation: I identified 4 devices. This scan confirms my visibility into the n
 
 Analysis
 Effective security starts with knowing what you own. By performing this audit, I established a baseline for my home network. In a corporate environment, this process is known as "Asset Inventory Management", which is critical for ensuring only authorized devices access sensitive data. I know who is allowed on my network, any potential threats can be quikcky identified.
+
+## Project 2: Phishing Email Triage Playbook
+Intake & Classification
+Definition: What does a "Suspicious Email" look like?
+
+Analysts should categorize reports into:
+Malicious (Confirmed Phish),
+Spam (Non-malicious noise),
+or False Positive (Legitimate email).
+
+The Analysis Checklist
+Sender: Is the email address domain matching the company name? (e.g., hr@microsoft-security.com vs hr@microsoft.com).
+Urgency: Does the email threaten account deletion or promise "free money" to force an emotional reaction?
+Links: (Crucial!) Tell the reader: "Never click. Hover the mouse to reveal the actual destination. Does the URL look like a random string of characters?"
+Attachments: Are there unexpected .zip, .exe, or .iso files?
+
+Escalation/Remediation
+Write: "If verified as malicious:
+Block the sender domain at the email gateway.
+Search email logs for other users who received the same message.
+Purge the email from all inboxes."
+
+Analysis:
+Phishing triage is not just about blocking emails; it is about Risk Mitigation. 
+By establishing a clear, repeatable process, we reduce the 'Mean Time To Respond' (MTTR), ensuring that a single user error doesn't become a company-wide data breach.

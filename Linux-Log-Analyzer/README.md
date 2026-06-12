@@ -11,7 +11,7 @@ To automate the parsing of server authentication logs to quickly identify brute-
 ## The Script in Action
 ![Automated Linux Log Analyzer](AutomatedLinuxLogAnalyzer.png)
 
-## Manager's Summary
+## Analysis
 Manual log review is highly inefficient. 
 By automating this process with a Bash script, I reduced the Mean Time to Detect (MTTD) for brute-force attacks from minutes to milliseconds. 
 In a live environment, this script's output could be piped directly into an IP table rule to automatically ban the attacking IP addresses.

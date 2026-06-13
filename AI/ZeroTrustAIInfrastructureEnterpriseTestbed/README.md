@@ -21,10 +21,9 @@ A dedicated headless target server must be provisioned to serve as a secure, com
 
 | Internal Policy ID | Technical Implementation | Architecture Mapping | Validation Artifact |
 | :--- | :--- | :--- | :--- |
-| **Infra-Pol-01** | Local Ollama Engine & Llama 3 (8B) | **On-Premise Compute:** Eliminates external data transit. | `02_ollama_service.png` |
-| **Infra-Pol-02** | Localhost Port Binding (11434) | **Zero-Trust Network:** Isolates API from external attackers. | `03_api_validation.png` |
-| **Infra-Pol-03** | OpenSSH Daemon (`sshd`) | **Remote Access:** Encrypted headless administration. | `01_ssh_connectivity.png` |
-
+| **Infra-Pol-01** | Local Ollama Engine & Llama 3 (8B) | **On-Premise Compute:** Eliminates external data transit. | ![Ollama Service](assets/02_ollama_service.png) |
+| **Infra-Pol-02** | Localhost Port Binding (11434) | **Zero-Trust Network:** Isolates API from external attackers. | ![API Validation](assets/03_api_validation.png) |
+| **Infra-Pol-03** | OpenSSH Daemon (`sshd`) | **Remote Access:** Encrypted headless administration. | ![SSH Connectivity](assets/01_ssh_connectivity.png) |
 ---
 
 ## Summary

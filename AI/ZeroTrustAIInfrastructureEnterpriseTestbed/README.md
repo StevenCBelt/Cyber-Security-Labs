@@ -10,10 +10,10 @@ A dedicated headless target server must be provisioned to serve as a secure, com
 
 ---
 
-## 1. Internal Infrastructure Security Policy (Excerpt)
-* **Infra-Pol-01 (Data Sovereignty):** All AI models processing internal system logs, network telemetry, or authentication records must be hosted on-premise. Third-party API transmission is strictly prohibited.
-* **Infra-Pol-02 (Zero-Trust API Binding):** Internal AI compute engines must bind exclusively to the local loopback interface (`127.0.0.1`) to prevent external network enumeration.
-* **Infra-Pol-03 (Headless Administration):** All production servers must restrict administrative access to encrypted SSH tunnels; graphical user interfaces (GUIs) are prohibited to minimize the attack surface.
+## 1. Internal Infrastructure Security Policy
+* **Data Sovereignty** All AI models processing internal system logs, network telemetry, or authentication records must be hosted on-premise. Third-party API transmission is strictly prohibited.
+* **Zero-Trust API Binding** Internal AI compute engines must bind exclusively to the local loopback interface (`127.0.0.1`) to prevent external network enumeration.
+* **Headless Administration** All production servers must restrict administrative access to encrypted SSH tunnels; graphical user interfaces (GUIs) are prohibited to minimize the attack surface.
 
 ---
 
